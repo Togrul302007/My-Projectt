@@ -1,0 +1,5 @@
+# Project Rules
+
+1. Always use controlled inputs with React state management; never leave input fields uncontrolled.
+2. All form elements must have explicit `<label>` tags with matching `htmlFor` attributes for accessibility (a11y).
+3. Do not use complex, custom nested regex patterns for email validation; utilize simple, proven validation logic.
