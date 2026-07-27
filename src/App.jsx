@@ -129,7 +129,7 @@ export default function App() {
     {/* <!-- Footer Graduate Badge Component --> */}
     <footer class="portfolio-footer" >
       {/* <!-- Existing footer elements --> */}
-      <div class="flyrank-badge-container" style={{textAlign:center}}>
+      <div class="flyrank-badge-container" style={{backgroundColor:"blue"}}>
         <a 
           href="https://internship.flyrank.ai/login" 
           target="_blank" 
