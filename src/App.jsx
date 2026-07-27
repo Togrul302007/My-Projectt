@@ -2,6 +2,7 @@ import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 
+import image from "./assets/COrn-4TxtI0DEAE=.webp"
 // 1. Custom GLSL Shader Material Definition
 const CustomShaderMaterial = {
   uniforms: {
@@ -126,16 +127,16 @@ export default function App() {
       </div>
     </main>
     {/* <!-- Footer Graduate Badge Component --> */}
-    <footer class="portfolio-footer">
+    <footer class="portfolio-footer" >
       {/* <!-- Existing footer elements --> */}
-      <div class="flyrank-badge-container">
+      <div class="flyrank-badge-container" style={{textAlign:center}}>
         <a 
-          href="https://aifluency.flyrank.ai/verify/YOUR_VERIFICATION_ID" 
+          href="https://internship.flyrank.ai/login" 
           target="_blank" 
           rel="noopener noreferrer"
         >
           <img 
-            src="/assets/flyrank-graduate-badge.svg" 
+            src={image}
             alt="FlyRank Verified Graduate" 
             width="140" 
             height="40"
