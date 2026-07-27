@@ -92,6 +92,8 @@ function ShaderPlane() {
 // 3. Main Hero Section Component
 export default function App() {
   return (
+    <>
+
     <main style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden', background: '#0f172a' }}>
       {/* Dynamic Fullscreen Shader Background */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
@@ -123,5 +125,25 @@ export default function App() {
         </p>
       </div>
     </main>
+    {/* <!-- Footer Graduate Badge Component --> */}
+    <footer class="portfolio-footer">
+      {/* <!-- Existing footer elements --> */}
+      <div class="flyrank-badge-container">
+        <a 
+          href="https://aifluency.flyrank.ai/verify/YOUR_VERIFICATION_ID" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <img 
+            src="/assets/flyrank-graduate-badge.svg" 
+            alt="FlyRank Verified Graduate" 
+            width="140" 
+            height="40"
+          />
+        </a>
+      </div>
+    </footer>
+    </>
+    
   );
 }
